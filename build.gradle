@@ -6,12 +6,14 @@ repositories {
     mavenCentral()
 }
 
-def junitVersion = "5.8.2"
+def junitVersion = "5.8.2",
+    selenideVersion = "5.24.3"
 
 dependencies {
     testImplementation(
             "io.rest-assured:rest-assured:4.4.0",
-            "org.junit.jupiter:junit-jupiter-api:$junitVersion")
+            "org.junit.jupiter:junit-jupiter-api:$junitVersion",
+            "com.codeborne:selenide:$selenideVersion",)
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
 
