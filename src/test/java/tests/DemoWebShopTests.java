@@ -1,3 +1,5 @@
+package tests;
+
 import com.codeborne.selenide.Condition;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.*;
