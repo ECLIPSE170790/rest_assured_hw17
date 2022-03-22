@@ -1,7 +1,6 @@
 package tests;
 
 import lombok.LombokUser;
-import models.User;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
