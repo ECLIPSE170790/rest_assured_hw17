@@ -27,6 +27,7 @@ dependencies {
             "io.rest-assured:json-schema-validator:4.3.1",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
+            "org.assertj:assertj-core:3.19.0",
             "com.codeborne:selenide:$selenideVersion",)
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
