@@ -28,7 +28,6 @@ public class Specs {
             .log().all()
             .contentType(ContentType.JSON);
 
-
     public static ResponseSpecification responseSpec201 = new ResponseSpecBuilder()
             .expectStatusCode(201)
             .build();
